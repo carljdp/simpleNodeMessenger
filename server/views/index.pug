@@ -1,0 +1,26 @@
+doctype html
+html(lang='en')
+  head
+
+    title Simple Node Messenger
+    
+    meta(charset='utf-8')
+    meta(name='description', content='Simple Node Messenger')
+    meta(name='author', content='carljdp')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    link(rel='stylesheet', href='public/css/semantic.css')
+
+    script(src='public/lib/jquery.js')    
+    script(src='public/lib/semantic.js')
+
+  body
+
+    .ui.fixed.inverted.menu
+      .ui.container
+        a.header.item(href='#')
+          | Simple Node Messenger
+
+    .ui.container#app
+
+    script(src='public/app.js')
